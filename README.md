@@ -4,36 +4,21 @@ Objetivo: Simulador, a nivel back end, de um forum para discussao e colaboraçã
 
 <h2>⚙️Tecnologias Utilizadas</h2>
 
-[![My Skills](https://skillicons.dev/icons?i=java,&theme=light)](https://skillicons.dev)<br>
+[![My Skills](https://skillicons.dev/icons?i=java,maven,hibernate,spring,mysql,postman&theme=light)](https://skillicons.dev)<br>
 
-## Estrutura do projeto
+## Diagrama do projeto
 
- <div align="left">
-    <img src= "https://github.com/KawenyVieira/Decodificador-de-texto-ONE-T6/assets/105323660/d3dd22ab-2ccf-4547-a7e9-ed378c9cef7e" width= "500px"/>
+ <div align="center">
+    <img src= "https://github.com/user-attachments/assets/6579149e-2bb4-4097-911d-09e866955abd" width= "600px"/>
   </div>
 
-## Responsividade :computer: :iphone:
-#### -Desktop :computer: 
-  <div align="left">
-    <img src= "https://github.com/KawenyVieira/Decodificador-de-texto-ONE-T6/assets/105323660/4e74f5f6-8dca-4bdb-9c5c-5af2eb1affbe" width= "500px"/>
-  </div>
+## Funcionalidades
+1. Criar um novo tópico;
+2. Mostrar todos os tópicos criados;
+3. Mostrar um tópico específico;
+4. Atualizar um tópico;
+5. Eliminar um tópico.
+6. Validação de tópicos duplicados;
+7. Verificação de ID ao detalhar um tópico.
 
-#### -Tablet 
-   <div align="left">
-    <img src= "https://github.com/KawenyVieira/Decodificador-de-texto-ONE-T6/assets/105323660/d3dd22ab-2ccf-4547-a7e9-ed378c9cef7e" width= "500px"/>
-  </div>
-
-#### -Celular :iphone:
-   <div align="left">
-      <img src= "https://github.com/KawenyVieira/Decodificador-de-texto-ONE-T6/assets/105323660/1e73ec76-cde3-4036-bc75-047cc59dc19c" width= "500px"/>
-    </div>
-
-## Acesse o decodificador e descubra novas formas de se comunicar !! :+1:
-Como utilizar: <br>
-1. Clique na imagem da maquina Enigma de Alan Turing
-2. Digite a palavra ou frase
-3. Clique em Criptografar ou Desincriptografar
-4. A resposta ira aparecer na tela do lado direito, aproveite e copie o texto pelo botao copiar e compartilhe!!
-
-[![decodificador vercel](https://github.com/KawenyVieira/Decodificador-de-texto-ONE-T6/assets/105323660/bf9058d3-29bc-4e4f-a5a7-22ecebb94498)](https://kawenyvieira.github.io/Decodificador-de-texto-ONE-T6/)
-*Enigma-Alan Turing*
+OBS: Como a aplicação esta totalmente a nivel backend as validaçoes e testes foram realizados pelo postgres, equivalente ao insomnia, desde a aplicação basica do CRUD a autenticação com Tokens.
